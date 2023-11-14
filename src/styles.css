@@ -195,23 +195,32 @@ h4 {
 }
 
 /* Toggle */
-
-.switcher_toggle {
+.switcher_toggle-con {
+  position: relative;
   width: 130px;
   height: 40.79px;
-  border-radius: 100px;
-  background-color: #5647ff;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  cursor: pointer;
 }
 
-.switcher_toggle:hover {
+.switcher_toggle-con__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 100px;
+  background-color: #5647ff;
+}
+
+.switcher_toggle-con__bg:hover {
   opacity: 0.5;
 }
 
-.switcher_toggle__circle {
+.switcher_toggle-con__circle {
+  position: absolute;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
