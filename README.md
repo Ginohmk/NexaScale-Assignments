@@ -2,9 +2,7 @@
 
 Assignment just to freashing up use of plain html.
 
-<br
-
->
+<br>
 
 ![image](https://github.com/Ginohmk/Foodie-Spin/assets/58771507/58382c3b-6cab-48de-89e1-50da148180a6)
 
